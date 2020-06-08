@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@slack/events-api": "^2.3.3",
+    "@slack/web-api": "^5.9.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "sucrase .src/ -d ./dist --transforms typescript,imports"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0",
+    "typescript": "^3.9.5"
+  }
+}
